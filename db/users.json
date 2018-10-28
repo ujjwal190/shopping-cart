@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5a2e94e59c8ffc1a6cd7b9e6"), 
+    "password" : "$2a$05$JaXZa9ziDAaM4GTFQ96r3.7jGWV00Kl8HFzvPfg6k116a9Og7FeO2", 
+    "email" : "demo@gmail.com", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a2e9b2db8b32114bc4c7653"), 
+    "password" : "$2a$05$4Moni3NgE1n/Cez3rB7/XeZBO4fwaMHEuUn6EIdpTMlgZqa5SGGD2", 
+    "email" : "test@gmail.com", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a6ac60c8a984416ec88ee1e"), 
+    "password" : "$2a$05$3NuDFex0.nErBaTwFp3Q4uc5hG.NAzSiIwMTHDEvmIicyb2DACWHe", 
+    "email" : "test1@gmail.com", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a8c2178d5b7a70c5c8919f2"), 
+    "password" : "$2a$05$lS67F6ekcsjmk1a.1Hh/Zu03CkWBpDPPN0noXRJd0IEh3GKjUwH8K", 
+    "email" : "demo1@gmail.com", 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,76 @@
+{ 
+    "_id" : ObjectId("5a3043ec9a029b0be401bd01"), 
+    "user" : ObjectId("5a2e9b2db8b32114bc4c7653"), 
+    "cart" : {
+        "items" : {
+            "5a2c38d17b862a1a1003f3bd" : {
+                "item" : {
+                    "_id" : "5a2c38d17b862a1a1003f3bd", 
+                    "imagePath" : "https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png", 
+                    "title" : "Gothic demo2", 
+                    "description" : "Awesome gameQ good game!!", 
+                    "price" : NumberInt(30), 
+                    "__v" : NumberInt(0)
+                }, 
+                "qty" : NumberInt(1), 
+                "price" : NumberInt(30)
+            }, 
+            "5a2c38d17b862a1a1003f3bb" : {
+                "item" : {
+                    "_id" : "5a2c38d17b862a1a1003f3bb", 
+                    "imagePath" : "https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png", 
+                    "title" : "Gothic demo4", 
+                    "description" : "Awesome gameQ dirty game!!", 
+                    "price" : NumberInt(135), 
+                    "__v" : NumberInt(0)
+                }, 
+                "qty" : NumberInt(1), 
+                "price" : NumberInt(135)
+            }
+        }, 
+        "totalQty" : NumberInt(2), 
+        "totalPrice" : NumberInt(165)
+    }, 
+    "address" : "gnpr", 
+    "name" : "test", 
+    "paymentId" : "ch_1BYKtZLrA2c9prcOCEnsCiLN", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a6ac6718a984416ec88ee1f"), 
+    "user" : ObjectId("5a6ac60c8a984416ec88ee1e"), 
+    "cart" : {
+        "items" : {
+            "5a2c38d17b862a1a1003f3ba" : {
+                "item" : {
+                    "_id" : "5a2c38d17b862a1a1003f3ba", 
+                    "imagePath" : "http://im.rediff.com/getahead/2015/apr/17pulsar-rs-200-1.jpg", 
+                    "title" : "pulsar RS 200", 
+                    "description" : "Awesome Bike!! Good Bike", 
+                    "price" : NumberInt(25000), 
+                    "__v" : NumberInt(0)
+                }, 
+                "qty" : NumberInt(1), 
+                "price" : NumberInt(25000)
+            }, 
+            "5a2c38d17b862a1a1003f3bb" : {
+                "item" : {
+                    "_id" : "5a2c38d17b862a1a1003f3bb", 
+                    "imagePath" : "https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png", 
+                    "title" : "Gothic demo4", 
+                    "description" : "Awesome gameQ dirty game!!", 
+                    "price" : NumberInt(135), 
+                    "__v" : NumberInt(0)
+                }, 
+                "qty" : NumberInt(1), 
+                "price" : NumberInt(135)
+            }
+        }, 
+        "totalQty" : NumberInt(2), 
+        "totalPrice" : NumberInt(25135)
+    }, 
+    "address" : "giet,gunupur", 
+    "name" : "Ujjwal Raj", 
+    "paymentId" : "ch_1BoQQOLrA2c9prcOeoetmIim", 
+    "__v" : NumberInt(0)
+}

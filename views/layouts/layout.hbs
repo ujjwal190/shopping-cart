@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trendy*Frog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+{{> header }}
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+  
+  <script>
+        var msg = 'Welcome To APK-SHOP'
+        var clrs = new Array("red","green","blue","pink","yellow","black","gray","navy","cyan","magenta");
+        var num_of_clrs=clrs.length
+        function changeColor()
+        {
+          for (i=0; i<msg.length; i++)
+          {
+            var index=parseInt(Math.random()*num_of_clrs)
+            var obj=document.getElementById('colortext' + i)
+            obj.style.color=clrs[index]
+          }
+          setTimeout("changeColor()",150)   
+        }
+    </script>
+
+
+<div class="container">
+    {{{body}}}
+</div>
+
+ 
+  <!--/#contact ends here-->
+  
+  <!--
+  <footer id="footer">
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p> Copyright &copy; 2018 GGI Gunupur || All Rights Reserved.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">Powered by: <a href="developers.php">Phragma</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+-->
+{{> footer }}
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
